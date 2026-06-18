@@ -1,36 +1,32 @@
-# Terraform
+# Terraform Practice
 
 Terraform practice workspace for infrastructure-as-code fundamentals.
 
-## Overview
+## Purpose
 
-This is a DevOps and infrastructure practice repository. It is part of my broader GitHub portfolio showing hands-on work across AI, web development, automation, and software engineering fundamentals.
+Infrastructure becomes easier to review and repeat when it is written as code. This repository is for practicing Terraform resources, modules, and cloud setup concepts.
 
-## What It Demonstrates
+## What This Shows
 
-- Practical implementation and experimentation rather than only theory.
-- Familiarity with the repository's core stack and development workflow.
-- Iterative learning through small projects, exercises, or prototypes.
+- Infrastructure-as-code basics
+- Terraform folder structure
+- Resource configuration practice
 
-## Tech Stack
+## Stack
 
-- Primary language: HCL
-- Topics: devops, infrastructure-as-code, terraform
+- Terraform
+- HCL
+- DevOps
 
-## Repository Structure
+## Status / Safety Note
 
-- Top-level folders: bucket
-- Top-level files: No top-level files detected.
-
-## Status
-
-This is a learning/prototype repository kept public to show practice, experimentation, and growth.
+Do not commit cloud credentials, tfstate files, or private infrastructure values.
 
 ## Next Improvements
 
-- Add screenshots, sample outputs, or a short demo where relevant.
-- Expand setup instructions for local development.
-- Document the main learning outcome, architecture, and edge cases.
+- Document provider and backend assumptions
+- Add plan/apply examples
+- Never commit credentials or state files
 
 ## Author
 
